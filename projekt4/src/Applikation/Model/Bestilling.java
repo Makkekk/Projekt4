@@ -14,11 +14,19 @@ public class Bestilling {
         this.kunde = kunde;
         this.forestilling = forestilling;
         this.dato = dato;
+        this.Pladser = new ArrayList<>();
         kunde.addBestilling(this);
     }
 
     public LocalDate getDato() {
         return dato;
     }
-}
 
+    public Kunde getKunde() {
+        return kunde;
+    }
+
+    public Forestilling getForestilling() {
+        return forestilling;
+    }
+}

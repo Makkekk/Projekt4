@@ -1,5 +1,5 @@
 package Applikation.Model;
 
 public enum PladsType {
-    STANDARD, EKSTRABEN, PlADSBEN
+    STANDARD, EKSTRABEN, KØRESTOL
 }

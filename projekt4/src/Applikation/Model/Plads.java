@@ -28,5 +28,10 @@ public class Plads {
     public PladsType getPladsType() {
         return pladsType;
 
+
+    }
+    @Override
+    public String toString() {
+        return "Plads: Række " + række + ", Plads " + nr + ", Pris " + pris + ", Type " + pladsType;
     }
 }
